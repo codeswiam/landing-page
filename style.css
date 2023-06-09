@@ -1,0 +1,169 @@
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero, .footer {
+    background-color: #1f2937;
+}
+
+.hero-header {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.hero-header, .logo {
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.links, .hero-secondary {
+    color: #e5e7eb;
+}
+
+.hero-secondary {
+    font-size: 24px;
+}
+
+button, .banner {
+    background-color: #3882f6;
+}
+
+button {
+    padding: 8px 32px;
+    color: white;
+    border-radius: 10px;
+}
+
+.hero-text button {
+    border: none;
+    align-self: flex-start;
+}
+
+.banner button {
+    border: 1px solid white;
+}
+
+h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.hero , .images, .footer, .action {
+    padding: 32px 128px;
+}
+
+.quote {
+    padding: 32px 320px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.hero-main {
+    display: flex;
+    gap: 32px;
+}
+
+.hero-image {
+    width: 500px;
+    height: auto;
+    border: none;
+    border-radius: 0;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.images div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.quote, .action , .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.thor {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3, .banner-text p {
+    margin: 0;
+}
+
+.banner {
+    box-sizing: border-box;
+    width: 1000px;
+    padding: 48px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.footer {
+    color: white;
+}
+
+.banner button {
+    align-self: center;
+}
+
+
